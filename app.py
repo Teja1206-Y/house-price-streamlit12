@@ -5,8 +5,7 @@ import pickle
 # -----------------------------
 # Load trained model (.pkl)
 # -----------------------------
-with open(r
-          "C:\Users\tejes\Houseprice ML\modelHousepred.pkl", "rb") as file:
+with open(r"C:\Users\tejes\Houseprice ML\modelHousepred.pkl", "rb") as file:
     model = pickle.load(file)
 
 # -----------------------------
